@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: hsl(120, 13%, 16%);
+
+  color: #ffffff;
+  padding: 2rem 0;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  padding: 1.5rem 1rem;
+  height: 100vh;
+  max-width: 500px;
+  border: 0.2px solid #fad9060c;
+  box-shadow: 0px 0px 7px hsla(0, 0%, 0%, 0.13);
+}
+
+.page-title {
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  margin-top: 5px;
+}
+
+.page-subtitle-dollar {
+  margin-top: 45px;
+}
+
+.page-logo {
+  width: 200px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.form {
+  display: grid;
+  grid-auto-flow: row;
+  margin: auto;
+  margin-top: 30px;
+  max-width: 300px;
+  text-align: left;
+}
+.dollar-html {
+  text-decoration: none;
+  color: black;
+  background-color: #fada06;
+  padding: 0.2rem 0.5rem;
+  text-align: center;
+}
+
+.img {
+  margin-top: 4rem;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input {
+  font-size: 16px;
+  height: 28px;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: #fad90662;
+  color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  padding: 0.2rem 0rem;
+  margin-bottom: 2rem;
+}
+
+input {
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.result-paragraph,
+.bad {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.bad {
+  color: #e03f3f;
+}
+
+@media (max-width: 627px) {
+  body {
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 548px) {
+  .container {
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .page-logo,
+  .img {
+    width: 150px;
+    height: auto;
+  }
+  .dollar-html {
+    padding: 0.2rem 0.5rem;
+  }
+}
+
+@media (max-width: 448px) {
+  button {
+    font-size: 16px;
+  }
+
+  body {
+    padding: 3rem 0.5rem;
+  }
+}
+
+@media (max-width: 365px) {
+  button {
+    font-size: 16px;
+  }
+  .page-logo,
+  .img {
+    width: 130px;
+    height: auto;
+  }
+}
